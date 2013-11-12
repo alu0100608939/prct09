@@ -6,7 +6,9 @@
   Tendremos la jerarquía de clases
   
   class Matrix
+  
   class DenseMatrix < Matrix
+  
   class SparseMatrix < Matrix
   
 
