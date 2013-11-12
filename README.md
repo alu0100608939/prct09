@@ -1,6 +1,14 @@
 # Practica9
 
-TODO: Write a gem description
+  Esta gema permite el uso de matrices densas (DenseMatrix) y matrices dispersas (SparseMatrix).
+  Pese a que la representación de estas matrices sea diferentes, ambos tipos de matrices heredarán
+  de un tipo de matriz básico (Matrix).
+  Tendremos la jerarquía de clases
+  
+  class Matrix
+  class DenseMatrix < Matrix
+  class SparseMatrix < Matrix
+  
 
 ## Installation
 
