@@ -7,7 +7,7 @@
   
   class Matrix: 
     * Implementa operador abstracto de indexación.
-    * Implementa operadores + - * que usan el operador de indexación
+    * Implementa operadores + - * == que usan el operador de indexación
   
   class DenseMatrix < Matrix:
     * Almacena los datos en un Array de Arrays de n x m
