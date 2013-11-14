@@ -5,12 +5,21 @@
   de un tipo de matriz básico (Matrix).
   Tendremos la jerarquía de clases
   
-  class Matrix
+  class Matrix: 
+    * Implementa operador abstracto de indexación.
+    * Implementa operadores + - * que usan el operador de indexación
   
-  class DenseMatrix < Matrix
+  class DenseMatrix < Matrix:
+    * Almacena los datos en un Array de Arrays de n x m
+    * Implementa operador de indexación tradicional, para acceder al Array de Arrays
   
-  class SparseMatrix < Matrix
-  
+  class SparseMatrix < Matrix:
+    * Alamcena los datos en un Array de Structs. Cada struct está compuesto por:
+      * Un valor
+      * Posición x en la matriz del valor
+      * Posición y en la matriz del valor
+    * Implementa operador de indexación que busca en el Array si existe algún valor asociado a la posición 
+      indicada y lo devuelve. en caso contrario devuelve un elemento neutro (0).
 
 ## Installation
 
