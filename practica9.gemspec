@@ -8,10 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = Practica9::VERSION
   spec.authors       = ["Hector"]
   spec.email         = ["alu0100608939@ull.edu.es"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.description   = %q{Jerarquia de clases para matrices}
+  spec.summary       = %q{Jerarquia para la definicion de matrices, tanto densas como dispersas}
+  spec.homepage      = "https://github.com/alu0100608939/prct09.git"
+  
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
